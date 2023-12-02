@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { pallete } from "../../theme";
 
 export const Style = styled.div`
 // .container{
@@ -17,6 +18,7 @@ export const Style = styled.div`
                     }
                     img{
                         width:182px;
+                        border-radius:${pallete.defaultRadiusS};
                     }
                 }
             }
