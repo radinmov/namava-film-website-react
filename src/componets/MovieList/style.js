@@ -18,6 +18,7 @@ export const Style = styled.div`
                     }
                     img{
                         width:182px;
+                        height:273px;
                         border-radius:${pallete.defaultRadiusS};
                     }
                 }
