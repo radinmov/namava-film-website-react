@@ -86,5 +86,13 @@ a {
 {
     padding:106px 0 50px 0;
 }
+.text-right
+{
+    text-align:right;
+}
+.text-center
+{
+    text-aling:center;
+}
 
 `;
