@@ -23,7 +23,6 @@ export default function Homepage() {
       <Stars />
       <MovieList title="خانوادگی" url="movies?page=17" />
       <MovieList title="کره ای " url="movies?page=18" />
-      
     </PrimaryLayout>
   );
 }

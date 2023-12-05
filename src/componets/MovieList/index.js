@@ -23,7 +23,8 @@ export default function MovieList(props) {
   }, []);
   function renderFarm() {
     return items.map((item) => {
-      const { id, poster, title,  country , year ,imdb_rating ,imdb_votes} = item;
+      const { id, poster, title, country, year, imdb_rating, imdb_votes } =
+        item;
       return (
         <li key={id}>
           <Link to={`/item/${id}`}>
@@ -31,7 +32,7 @@ export default function MovieList(props) {
               <div className="hover-box">
                 <div className="year">Year:{year}</div>
                 <div className="country">Country:{country}</div>
-                <div className="director">imdb_rating:{imdb_rating}</div>                
+                <div className="director">imdb_rating:{imdb_rating}</div>
               </div>
               <img className="poster" src={poster} />
               <h3 className="title">{title}</h3>

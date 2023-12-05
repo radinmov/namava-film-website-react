@@ -31,26 +31,26 @@ export default function Stars() {
       img: "https://static.namava.ir/Content/Upload/Images/25fda32f-1f0b-4a9c-8bb0-48b035c0187a.jpg?anchor=middlecenter&crop=auto&scale=both&w=180&h=180",
     },
     {
-        name: "تام کروز",
-        img: "https://static.namava.ir/Content/Upload/Images/a6ed33e8-7e11-4739-a988-9a90e9db8b9b.jpg?anchor=middlecenter&crop=auto&scale=both&w=180&h=180",
-      },
+      name: "تام کروز",
+      img: "https://static.namava.ir/Content/Upload/Images/a6ed33e8-7e11-4739-a988-9a90e9db8b9b.jpg?anchor=middlecenter&crop=auto&scale=both&w=180&h=180",
+    },
   ];
   function renderFarm() {
-    return stars.map(({name,img} , index) => {
-        return (
-            <li key={index}>
-                <img src={img}/>
-                <h5 className="center">{name}</h5>
-            </li>
-        )
-    })
+    return stars.map(({ name, img }, index) => {
+      return (
+        <li key={index}>
+          <img src={img} />
+          <h5 className="center">{name}</h5>
+        </li>
+      );
+    });
   }
   return (
     <Style>
-    <div className="container">
+      <div className="container">
         <h2 className="title text-right">ستارگان</h2>
         <ul className="flex gap-40">{renderFarm()}</ul>
-    </div>
-     </Style>
-  )
+      </div>
+    </Style>
+  );
 }
