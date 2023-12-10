@@ -129,6 +129,9 @@ a {
     width: 183px;    
     height:300px;
 }
+.hover-box-2 {
+    height:366px;
+}
 .card:hover .hover-box {
     opacity: 1;
 }

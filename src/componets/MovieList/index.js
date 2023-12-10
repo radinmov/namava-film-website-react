@@ -29,7 +29,7 @@ export default function MovieList(props) {
         <li key={id}>
           <Link to={`/item/${id}`}>
             <div className="card ">
-              <div className="hover-box">
+              <div className="hover-box ">
                 <div className="year">Year:{year}</div>
                 <div className="country">Country:{country}</div>
                 <div className="director">imdb_rating:{imdb_rating}</div>

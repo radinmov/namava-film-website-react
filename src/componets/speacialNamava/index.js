@@ -19,11 +19,16 @@ export default function Speacial(props) {
   }, []);
   function renderFarm() {
     return items.map((item) => {
-      const { id, poster, title } = item;
+      const { id, poster, title  , year , country , imdb_rating} = item;
       return (
         <li key={id}>
           <Link to={`/item/${id}`}>
             <div className="card ">
+            <div className="hover-box hover-box-2">
+            <div className="year">Year:{year}</div>
+                <div className="country">Country:{country}</div>
+                <div className="director">imdb_rating:{imdb_rating}</div>
+            </div>
               <img src={poster} />
               <h3 className="title">{title}</h3>
             </div>
