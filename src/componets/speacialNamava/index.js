@@ -17,6 +17,7 @@ export default function Speacial(props) {
       .catch(function (error) {
       });
   }, []);
+  // orifin  mian  upstsvuj
   function renderFarm() {
     return items.map((item) => {
       const { id, poster, title  , year , country , imdb_rating} = item;
