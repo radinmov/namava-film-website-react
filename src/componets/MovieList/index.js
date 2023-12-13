@@ -52,7 +52,7 @@ export default function MovieList(props) {
       <div className="container ">
         <h2 className="title">{title}</h2>
       </div>
-      <div id="slider" className="overflow-x-scroll scroll whitespace-nowrap scroll-smoth ">
+      <div id="slider" className="overflow-x-scroll  whitespace-nowrap scroll-smoth ">
       {<ul className="flex  gap-20">{renderFarm()}</ul>}
       </div>
     </Style>

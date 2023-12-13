@@ -43,7 +43,7 @@ export default function Speacial(props) {
       <div className="container ">
         <h2 className="title">{title}</h2>
       </div>
-      {<ul className="flex flex-wrap gap-10">{renderFarm()}</ul>}
+      {<ul className="flex  gap-10">{renderFarm()}</ul>}
     </Style>
   );
 }

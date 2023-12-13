@@ -5,6 +5,7 @@ export const Style = styled.div`
 // .container{
     h2.title{
         text-align:right;
+        font-size:21px;
     }
 }
 // .container{
@@ -26,6 +27,9 @@ export const Style = styled.div`
         }
     }
 }
-
+#slider
+{
+    height:auto;
+}
 
 `;
