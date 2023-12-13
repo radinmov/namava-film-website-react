@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import PrimaryLayout from "../../Layout/PrimaryLayout";
 import { Style } from "./style";
+import './index.css'
 
 export default function NotFound() {
   return (
@@ -12,6 +13,7 @@ export default function NotFound() {
           <Link className="Linked" to="/">
             go To Home
           </Link>
+          <p className="underline">test</p>
         </div>
       </PrimaryLayout>
     </Style>

@@ -2,7 +2,11 @@ import { useEffect, useState } from "react";
 import { api } from "../../utils/api";
 import { Link } from "react-router-dom";
 import { Style } from "./style";
+import "./index.css"
+// import { GoArrowLeft } from "react-icons/go"
 // import Loading from "../Loading";
+// import {MdChevronLeft , MdChevronRight} from "react-icons/md"
+// import { GoArrowLeft } from "react-icons/go";
 
 export default function MovieList(props) {
   const { title = "", url = "" } = props;
@@ -23,7 +27,7 @@ export default function MovieList(props) {
   }, []);
   function renderFarm() {
     return items.map((item) => {
-      const { id, poster, title, country, year, imdb_rating, imdb_votes } =
+      const { id, poster, title, country, year, imdb_rating } =
         item;
       return (
         <li key={id}>
@@ -38,6 +42,7 @@ export default function MovieList(props) {
               <h3 className="title">{title}</h3>
             </div>
           </Link>
+
         </li>
       );
     });
@@ -47,7 +52,9 @@ export default function MovieList(props) {
       <div className="container ">
         <h2 className="title">{title}</h2>
       </div>
-      {<ul className="flex flex-wrap gap-10">{renderFarm()}</ul>}
+      <div id="slider" className="overflow-x-scroll scroll whitespace-nowrap scroll-smoth ">
+      {<ul className="flex  gap-20">{renderFarm()}</ul>}
+      </div>
     </Style>
   );
 }

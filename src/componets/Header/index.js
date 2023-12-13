@@ -1,5 +1,6 @@
 import Button from "../uiElements/Button";
 import { Style } from "./Style";
+import "./index.css"
 
 export default function Header() {
   return (
