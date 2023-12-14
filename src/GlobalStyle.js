@@ -19,6 +19,7 @@ export const GlobalStyle = createGlobalStyle`
 body, button, input {
     
       font-family: 'Vazirmatn';
+    //   font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
