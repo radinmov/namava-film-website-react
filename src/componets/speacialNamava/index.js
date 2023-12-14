@@ -43,7 +43,9 @@ export default function Speacial(props) {
       <div className="container ">
         <h2 className="title">{title}</h2>
       </div>
+      <div id="slider" className="overflow-x-scroll  whitespace-nowrap scroll-smoth ">
       {<ul className="flex  gap-10">{renderFarm()}</ul>}
+      </div>
     </Style>
   );
 }

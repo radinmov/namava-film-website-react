@@ -8,7 +8,8 @@ import Speacial from "../../componets/speacialNamava";
 export default function Homepage() {
   return (
     <PrimaryLayout>
-      <App />
+      {/* <App /> */}
+      
       <StartImg />
       <MovieList title="ویژه" url="movies" />
       <Speacial title="اختصاصی نماوا" url="movies?page=4" />
@@ -23,6 +24,6 @@ export default function Homepage() {
       <Stars />
       <MovieList title="خانوادگی" url="movies?page=17" />
       <MovieList title="کره ای " url="movies?page=18" />
-    </PrimaryLayout>
+     </PrimaryLayout>
   );
 }
