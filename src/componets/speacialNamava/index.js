@@ -40,7 +40,7 @@ export default function Speacial(props) {
   }
   return (
     <Style>
-      <div className="container ">
+      <div className="container-2 ">
         <h2 className="title">{title}</h2>
       </div>
       <div id="slider" className="overflow-x-scroll  whitespace-nowrap scroll-smoth ">

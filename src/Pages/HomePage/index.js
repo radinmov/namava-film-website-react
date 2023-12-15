@@ -1,12 +1,14 @@
 import PrimaryLayout from "../../Layout/PrimaryLayout";
-import App from "../../componets/Hero Movie";
+// import App from "../../componets/Hero Movie";
 import MovieList from "../../componets/MovieList";
 import Stars from "../../componets/Stars";
 import StartImg from "../../componets/Start-img";
 import Speacial from "../../componets/speacialNamava";
+import { Style } from "./style";
 
 export default function Homepage() {
   return (
+    <Style>
     <PrimaryLayout>
       {/* <App /> */}
       
@@ -25,5 +27,6 @@ export default function Homepage() {
       <MovieList title="خانوادگی" url="movies?page=17" />
       <MovieList title="کره ای " url="movies?page=18" />
      </PrimaryLayout>
+     </Style>
   );
 }
