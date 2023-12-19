@@ -7,4 +7,8 @@ export const Style = styled.div`
   .center {
     text-align: center;
   }
+  .title 
+  {
+    font-size:20px;
+  }
 `;

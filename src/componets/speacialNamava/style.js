@@ -11,5 +11,6 @@ img
 h2
 {
     text-align:right;
+    font-size:20px;
 }
 `;

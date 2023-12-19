@@ -35,7 +35,7 @@ export default function MovieList(props) {
                 <div className="director w-24">imdb_rating:{imdb_rating}</div>
               </div>
               <img className="poster" src={poster} />
-              <h3 className="title">{title}</h3>
+              <h3 className="title ">{title}</h3>
             </div>
           </Link>
 
@@ -49,7 +49,7 @@ export default function MovieList(props) {
         <h2 className="title mr-6">{title}</h2>
       </div>
       <div id="slider" className="overflow-x-scroll w-full  whitespace-nowrap scroll-smoth ">
-      {<ul className="flex  gap-20">{renderFarm()}</ul>}
+      {<ul className="flex  gap-20  m-4">{renderFarm()}</ul>}
       </div>
     </Style>
   );

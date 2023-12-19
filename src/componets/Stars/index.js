@@ -22,14 +22,6 @@ export default function Stars() {
       name: "رایان گاسلینگ",
       img: "https://static.namava.ir/Content/Upload/Images/268bb36d-00d4-4027-bf26-41cbf5ed207e.jpg?anchor=middlecenter&crop=auto&scale=both&w=180&h=180",
     },
-    // {
-    //   name: "کیلین مورفی",
-    //   img: "https://static.namava.ir/Content/Upload/Images/29844235-f822-42ea-b424-765b992092f9.jpg?anchor=middlecenter&crop=auto&scale=both&w=180&h=180",
-    // },
-    // {
-    //   name: "مارگو رابی",
-    //   img: "https://static.namava.ir/Content/Upload/Images/25fda32f-1f0b-4a9c-8bb0-48b035c0187a.jpg?anchor=middlecenter&crop=auto&scale=both&w=180&h=180",
-    // },
     {
       name: "تام کروز",
       img: "https://static.namava.ir/Content/Upload/Images/a6ed33e8-7e11-4739-a988-9a90e9db8b9b.jpg?anchor=middlecenter&crop=auto&scale=both&w=180&h=180",
@@ -56,7 +48,7 @@ export default function Stars() {
       return (
         <li key={index}>
           <img src={img} />
-          <h5 className="center">{name}</h5>
+          <h5 className="center title ">{name}</h5>
         </li>
       );
     });
@@ -64,7 +56,7 @@ export default function Stars() {
   return (
     <Style>
       <div className="container-2 ">
-        <h2 className="title text-right">ستارگان</h2>
+        <h2 className="title text-right mr-4">ستارگان</h2>
         <div id="slider"  className="overflow-x-scroll scroll  whitespace-nowrap scroll-smoth ">
         <ul className="flex gap-40">{renderFarm()}</ul>
         </div>

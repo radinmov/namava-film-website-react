@@ -123,7 +123,7 @@ a {
     opacity: 0;
     transition:  0.2s ease-in-out;   
     width: 180px;    
-    height:300px;
+    height:290px;
 }
 .hover-box-2 {
     height:366px;
