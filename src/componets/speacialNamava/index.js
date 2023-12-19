@@ -24,7 +24,7 @@ export default function Speacial(props) {
       return (
         <li key={id}>
           <Link to={`/item/${id}`}>
-            <div className="card ">
+            <div className="card  card-2 ">
             <div className="hover-box hover-box-2">
             <div className="year">Year:{year}</div>
                 <div className="country">Country:{country}</div>
@@ -44,7 +44,7 @@ export default function Speacial(props) {
         <h2 className="title">{title}</h2>
       </div>
       <div id="slider" className="overflow-x-scroll  whitespace-nowrap scroll-smoth ">
-      {<ul className="flex  gap-10">{renderFarm()}</ul>}
+      {<ul className="flex  gap-10 m-4">{renderFarm()}</ul>}
       </div>
     </Style>
   );

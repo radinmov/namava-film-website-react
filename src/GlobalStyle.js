@@ -97,13 +97,10 @@ a {
 }
 .card {
     position: relative;
-    // width: 187px;
-    // height: 280px;
     transition: all 0.3s ease-in-out;
+    height:300px;
 }
 .card:hover {
-    // transform: scale(1.1111111999);
-    box-shadow: 0 0 4px 4px #d3d3d3;
     border-radius: 5px;
 }
 .card::before {
@@ -122,12 +119,10 @@ a {
     background-color: rgba(18, 18, 18, 0.8);
     gap: 10px;
     position: absolute;
-    // top: 68%;
-    // left: 10;
     z-index: 2;
     opacity: 0;
     transition:  0.2s ease-in-out;   
-    width: 183px;    
+    width: 180px;    
     height:300px;
 }
 .hover-box-2 {
@@ -136,5 +131,8 @@ a {
 .card:hover .hover-box {
     opacity: 1;
 }
-
+.card-2
+{
+    height:390px;
+}
 `;

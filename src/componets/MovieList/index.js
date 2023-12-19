@@ -31,7 +31,7 @@ export default function MovieList(props) {
             <div className="card ">
               <div className="hover-box  ">
                 <div className="year w-24">Year:{year}</div>
-                <div className="country w-24 ">Country:{country}</div>
+                {/* <div className="country w-24 ">Country:{country}</div> */}
                 <div className="director w-24">imdb_rating:{imdb_rating}</div>
               </div>
               <img className="poster" src={poster} />
@@ -46,7 +46,7 @@ export default function MovieList(props) {
   return (
     <Style>
       <div className="container-2 w-full ">
-        <h2 className="title">{title}</h2>
+        <h2 className="title mr-6">{title}</h2>
       </div>
       <div id="slider" className="overflow-x-scroll w-full  whitespace-nowrap scroll-smoth ">
       {<ul className="flex  gap-20">{renderFarm()}</ul>}
