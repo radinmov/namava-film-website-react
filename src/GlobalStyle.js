@@ -24,7 +24,7 @@ body, button, input {
     -moz-osx-font-smoothing: grayscale;
 }
 body {
-    background:#121212;
+    background-color: #121212;
     margin: 0;
     color: #fff;
 }

@@ -3,6 +3,7 @@ import Homepage from "./Pages/HomePage";
 import NotFound from "./Pages/NotFound";
 import Search from "./Pages/Search";
 import SingleMovie from "./Pages/SingleMovies";
+import Login from "./Pages/Login";
 
 const routes = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const routes = createBrowserRouter([
   {
     path: "*",
     element: <NotFound />,
+  },
+  {
+    path: "Login",
+    element: <Login />,
   },
   {
     path: "/search",
