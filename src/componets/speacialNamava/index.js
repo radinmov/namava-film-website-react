@@ -30,7 +30,7 @@ export default function Speacial(props) {
                 <div className="country">Country:{country}</div>
                 <div className="director">imdb_rating:{imdb_rating}</div>
             </div>
-              <img src={poster} />
+              <img className="poster" src={poster} />
               <h3 className="title">{title}</h3>
             </div>
           </Link>

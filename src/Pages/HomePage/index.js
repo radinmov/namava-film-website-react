@@ -23,6 +23,7 @@ export default function Homepage() {
       <MovieList title="ایرانی" url="movies?page=14" />
       <MovieList title="اکشن" url="movies?page=15" />
       <MovieList title="کمدی" url="movies?page=16" />
+      <MovieList title="گلدن گلوب ۲۰۲۴" url="movies?page=17" />
       <Stars />
       <MovieList title="خانوادگی" url="movies?page=17" />
       <MovieList title="کره ای " url="movies?page=18" />

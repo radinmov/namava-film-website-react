@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { pallete } from "../../theme";
 
 export const Style = styled.div`
-img
+img.poster
 {
     width:182px;
     height:365px;
