@@ -8,14 +8,6 @@ export default function Stars() {
       img: "https://static.namava.ir/Content/Upload/Images/e3200e1d-d803-44cd-b888-eacb1a2e37c5.jpg?anchor=middlecenter&crop=auto&scale=both&w=180&h=180",
     },
     {
-      name: "آمیتا پاجان",
-      img: "https://static.namava.ir/Content/Upload/Images/3aaeb432-abb4-40aa-8fdb-51c4ffdea15c.jpg?anchor=middlecenter&crop=auto&scale=both&w=180&h=180",
-    },
-    {
-      name: "واکین فینکس",
-      img: "https://static.namava.ir/Content/Upload/Images/a95217fb-aa7b-4333-a3db-2975a88ffc8d.jpg?anchor=middlecenter&crop=auto&scale=both&w=180&h=180",
-    },
-    {
       name: "رابرت داونی جونیور ",
       img: "https://static.namava.ir/Content/Upload/Images/497c69bf-1222-403f-91da-c92e8acf5954.jpg?anchor=middlecenter&crop=auto&scale=both&w=180&h=180",
     },

@@ -3,14 +3,13 @@ import { pallete } from "../../theme";
 
 export const Style = styled.div`
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   .wrapper {
     background: #222327;
     width: 500px;
     height: 520px;
+    margin-top: 50px;
+    border-radius: ${pallete.defaultRadiusX};
 
     .wrapper-inner {
       width: 420px;
@@ -26,12 +25,8 @@ export const Style = styled.div`
           height: 40px;
           background: #37383e;
           margin: 0 auto;
+          margin-top: 42px;
           border-radius: ${pallete.defaultRadiusS};
-          input {
-            border: none;
-            outline: 0;
-            background: inherit;
-          }
         }
         input {
           border: none;
@@ -39,14 +34,39 @@ export const Style = styled.div`
           background: #37383e;
           border-radius: ${pallete.defaultRadiusS};
         }
+        .int_2 input {
+          width: 337px;
+          height: 40px;
+        }
       }
       .btn {
         button {
           width: 337px;
           height: 40px;
           background: #aaaaaa;
+          margin-top: 70px;
           border-radius: ${pallete.defaultRadiusS};
         }
+      }
+    }
+  }
+  .upper_login {
+    .upper_inner {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      img {
+        width: 50px;
+        border-radius: ${pallete.defaultRadiusS};
+      }
+      a.login {
+        width: 107px;
+        height: 42px;
+        text-align: center;
+        border-radius: ${pallete.defaultRadiusS};
+        background: #fff;
+        color: black;
       }
     }
   }

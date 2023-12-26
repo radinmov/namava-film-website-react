@@ -26,6 +26,10 @@ const routes = createBrowserRouter([
     path: "/search",
     element: <Search />,
   },
+  {
+    path: "/login",
+    element: <Login />,
+  },
 ]);
 
 export default function Router() {
