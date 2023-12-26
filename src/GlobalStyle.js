@@ -121,7 +121,7 @@ a {
     position: absolute;
     z-index: 2;
     opacity: 0;
-    transition:  0.2s ease-in-out;   
+    transition:  0.5s ease-in-out;   
     width: 180px;    
     height:290px;
 }
