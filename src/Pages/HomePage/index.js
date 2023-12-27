@@ -4,6 +4,7 @@ import MovieList from "../../componets/MovieList";
 import Stars from "../../componets/Stars";
 import StartImg from "../../componets/Start-img";
 import Speacial from "../../componets/speacialNamava";
+import App from "../../componets/start_img1/App";
 import { Style } from "./style";
 
 export default function Homepage() {
@@ -11,7 +12,7 @@ export default function Homepage() {
     <Style>
     <PrimaryLayout>
       {/* <App /> */}
-      
+      <App />
       <StartImg />
       <MovieList title="ویژه" url="movies" />
       <Speacial title="اختصاصی نماوا" url="movies?page=4" />
