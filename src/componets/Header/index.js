@@ -1,6 +1,5 @@
 import Button from "../uiElements/Button";
 import { Style } from "./Style";
-// import "./index.css"
 
 export default function Header() {
   return (
@@ -29,15 +28,9 @@ export default function Header() {
             </div>
           </div>
           <div className="right flex gap-10 align-center">
-            <Button className="bold" >
-              کودکان
-            </Button>
-            <Button className="bold">
-              پردیس نماوا
-            </Button>
-            <Button className="bold">
-              نماوا مگ
-            </Button>
+            <Button className="bold">کودکان</Button>
+            <Button className="bold">پردیس نماوا</Button>
+            <Button className="bold">نماوا مگ</Button>
             <Button icon="fa-solid fa-search">خانه</Button>
             <div className="logo">
               <img src="assets/logo/logo.svg" />

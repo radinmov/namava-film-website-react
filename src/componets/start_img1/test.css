@@ -1,5 +1,18 @@
 .one {
-  background-image: url("https://images.unsplash.com/photo-1587387119725-9d6bac0f22fb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aG9yaXpvbnRhbHxlbnwwfHwwfHx8MA%3D%3D");
+  background-image: url("https://static.namava.ir/Content/Upload/Images/21ef338c-cbcb-4217-a7b9-868aaaa44fea.jpg?anchor=middlecenter&crop=auto&scale=both&w=1920&h=900");
   background-repeat: no-repeat;
   height: 500px;
+}
+.two {
+  background-image: url("https://static.namava.ir/Content/Upload/Images/65335845-80bf-47d3-a3cf-60c8b994974f.jpg?anchor=middlecenter&crop=auto&scale=both&w=1920&h=900");
+}
+.three {
+  background-image: url("https://static.namava.ir/Content/Upload/Images/be89fc06-eb91-4bed-b7ae-f64073a9276e.jpg?anchor=middlecenter&crop=auto&scale=both&w=1920&h=900");
+}
+.four {
+  background-image: url("https://static.namava.ir/Content/Upload/Images/5f59a13b-77c8-4c27-a81b-1d7ef277537c.jpg?anchor=middlecenter&crop=auto&scale=both&w=1920&h=900");
+}
+
+.public {
+  height: 700px;
 }

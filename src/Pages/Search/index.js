@@ -42,7 +42,7 @@ export default function Search() {
         if (data.data.length === 0 ) {
             return (
                 <img src="assets/logo/Not foubnd.png" />,
-                <p>موردی یافت نشد</p>
+                <p className="text-center">موردی یافت نشد</p>
             )
         }
         return data.data.map(({id , poster , title}) =>(
@@ -57,10 +57,10 @@ export default function Search() {
     return (
         <PrimaryLayout>
             <Style>
-            <div className="container">
+            <div className="container-2">
           <div className="content">
             <div className="int">
-                <img src="assets/logo/search.svg" />
+                {/* <img src="assets/logo/search.svg" /> */}
                 <input value={searchParams.get("q") ? searchParams.get("q") : ""} type="text" placeholder="فیلم، سریال، بازیگر و ژانر" onChange={typing} />
             </div>
             </div>

@@ -32,4 +32,5 @@ export const Style = styled.div`
   a {
     color: #fff;
   }
+
 `;

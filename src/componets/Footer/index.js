@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <Style>
       <div className="footer">
-        <div className="container">
+        <div className="container-2">
           <div className="flex space-between">
             <Button>اپلیکیشن‌ها</Button>
             <Button>فرصت‌های شغلی</Button>

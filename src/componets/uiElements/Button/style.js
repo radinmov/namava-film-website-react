@@ -43,20 +43,7 @@ export const Style = styled.div`
         ? pallete.primary
         : pallete.defaultBtnColor};
     &:hover {
-      height: 100%;
-      width: 100%;
-      background: ${(props) =>
-        props.type === "primary"
-          ? pallete.primary
-          : props.type === "dark"
-          ? "#151515cc"
-          : "#151515cc"};
-      border-color: ${(props) =>
-        props.type === "primary"
-          ? "tranaprent"
-          : props.type === "dark"
-          ? pallete.primary
-          : "#eaf6ff26"};
+      color:#6eb8ff;
     }
   }
 `;
