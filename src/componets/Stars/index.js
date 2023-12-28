@@ -51,7 +51,7 @@ export default function Stars() {
       <div className="container-2 ">
         <h2 className="title text-right mr-4">ستارگان</h2>
         <div id="slider"  className="overflow-x-scroll scroll  whitespace-nowrap scroll-smoth ">
-        <ul className="flex gap-40 hr">{renderFarm()}</ul>
+        <ul className="flex gap-40 justify-center">{renderFarm()}</ul>
         </div>
       </div>
     </Style>

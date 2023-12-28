@@ -2,8 +2,10 @@ import { Style } from "./style";
 
 import "./index.css";
 import { Link } from "react-router-dom";
+import useTitle from "../../componets/Hook/useTitle";
 
 export default function Login() {
+  const title = useTitle("ورود از طریق شماره تلفن همراه")
   return (
     <Style>
       <div className="upper_login">

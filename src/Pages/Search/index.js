@@ -3,8 +3,10 @@ import { useEffect, useState } from "react";
 import { createSearchParams, useSearchParams } from "react-router-dom";
 import PrimaryLayout from "../../Layout/PrimaryLayout";
 import { Style } from "./style";
+import useTitle from "../../componets/Hook/useTitle";
 
 export default function Search() {
+    const title = useTitle("جستجو")
     const [searchParams, setSearchParam] =useSearchParams();
     const [data,setData] =useState({
         data: [],
@@ -41,7 +43,7 @@ export default function Search() {
     function renderFarm() {
         if (data.data.length === 0 ) {
             return (
-                <img src="assets/logo/Not foubnd.png" />,
+                // <img src="assets/logo/Not foubnd.png" />,
                 <p className="text-center">موردی یافت نشد</p>
             )
         }
