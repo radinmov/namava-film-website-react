@@ -10,7 +10,12 @@ export default function Header() {
             <div className="menu">
               <ul className="flex align-center gap-5">
                 <li>
-                  <Button to="/login" size="large" icon="fa-solid fa-tv">
+                  <Button
+                    border="solid"
+                    to="/login"
+                    size="large"
+                    icon="fa-solid fa-tv"
+                  >
                     ورود و ثبت نام
                   </Button>
                 </li>
@@ -31,7 +36,9 @@ export default function Header() {
             <Button className="bold">کودکان</Button>
             <Button className="bold">پردیس نماوا</Button>
             <Button className="bold">نماوا مگ</Button>
-            <Button to="/" icon="fa-solid fa-search">خانه</Button>
+            <Button to="/" icon="fa-solid fa-search">
+              خانه
+            </Button>
             <div className="logo">
               <img src="assets/logo/logo.svg" />
             </div>

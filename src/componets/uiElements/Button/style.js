@@ -13,6 +13,7 @@ export const Style = styled.div`
     justify-content: center;
     align-items: center;
     border-radius: ${pallete.defaultRadius};
+    border : ${(props) => (props.border === "solid" ? "1px solid white" : "none")};
     transition-property: color, opacity, border, margin, padding, width, height;
     transition-duration: 70ms;
     transition-timing-function: ease-in-out;
