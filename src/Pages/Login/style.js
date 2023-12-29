@@ -67,6 +67,7 @@ export const Style = styled.div`
         border-radius: ${pallete.defaultRadiusS};
         background: #fff;
         color: black;
+        line-height: 43px;
       }
     }
   }
