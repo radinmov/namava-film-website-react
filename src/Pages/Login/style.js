@@ -71,4 +71,5 @@ export const Style = styled.div`
       }
     }
   }
+
 `;

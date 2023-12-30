@@ -1,6 +1,6 @@
 import { Style } from "./style";
 
-import "./index.css";
+// import "./index.css";
 import { Link } from "react-router-dom";
 import useTitle from "../../componets/Hook/useTitle";
 

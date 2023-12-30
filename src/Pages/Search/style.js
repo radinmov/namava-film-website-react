@@ -29,4 +29,13 @@ export const Style = styled.div`
       }
     }
   }
+  @media (max-width: 970px) {
+    input {
+      width:500px;
+    }
+    .int {
+      width:500px;
+    }
+  }
+
 `;

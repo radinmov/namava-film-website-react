@@ -1,7 +1,23 @@
+import React, { useState } from "react";
 import Button from "../uiElements/Button";
 import { Style } from "./Style";
 
 export default function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
+  // Additional logic for handling menu item clicks
+  const handleMenuItemClick = () => {
+    closeMenu();
+  };
+
   return (
     <Style>
       <div className="full-container">
@@ -45,6 +61,82 @@ export default function Header() {
           </div>
         </div>
       </div>
+      <div className="responsive_container ">
+        <div className="responsiv_inner  flex space-between">
+          <div className="right">
+            <ul className="flex">
+              <li>
+                <Button
+                  border="solid"
+                  to="/login"
+                  size="large"
+                  icon="fa-solid fa-tv"
+                >
+                  ورود و ثبت نام
+                </Button>
+              </li>
+              <li className="none">
+                <Button size="large" icon="fa-solid fa-tv">
+                  خرید اشتراک
+                </Button>
+              </li>
+
+            </ul>
+          </div>
+          <div className="left flex align-center">
+            <ul >
+            <li>
+                <Button to="/search" size="large" icon="fa-solid fa-plus">
+                  جستجو
+                </Button>
+              </li>
+            </ul>
+            <div className="logo">
+              <img className="wh" src="assets/logo/logo.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <div className={`main-container ${isMenuOpen ? 'menu-open' : ''}` }>
+      <button className="openMenu " style={{display : isMenuOpen ? 'none' : 'block'}} onClick={toggleMenu}>
+       منو
+      </button>
+
+      <div className="mainMenu" style={{ display: isMenuOpen ? 'flex' : 'none' }}>
+        {/* <button className="closeMenu" onClick={closeMenu}>
+          بستن
+        </button> 
+        <nav>
+          <ul className="menu-items">
+          <li>
+          <button className="closeMenu" onClick={closeMenu}>
+          بستن
+        </button>
+          </li>
+          <li>
+                  <Button
+                    border="solid"
+                    to="/login"
+                    size="large"
+                    icon="fa-solid fa-tv"
+                  >
+                    ورود و ثبت نام
+                  </Button>
+                </li>
+                <li>
+                  <Button size="large" icon="fa-solid fa-tv">
+                    خرید اشتراک
+                  </Button>
+                </li>
+                <li>
+                  <Button to="/search" size="large" icon="fa-solid fa-plus">
+                    جستجو
+                  </Button>
+                </li>
+          </ul>
+        </nav>
+      </div>
+    </div> */}
     </Style>
   );
 }
