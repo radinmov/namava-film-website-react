@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Button from "../uiElements/Button";
 import { Style } from "./Style";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -55,9 +56,11 @@ export default function Header() {
             <Button to="/" icon="fa-solid fa-search">
               خانه
             </Button>
-            <div className="logo">
-              <img src="assets/logo/logo.svg" />
-            </div>
+            <Link to={"/"}>
+              <div className="logo">
+                <img src="assets/logo/logo.svg" />
+              </div>
+            </Link>
           </div>
         </div>
       </div>
@@ -80,63 +83,24 @@ export default function Header() {
                   خرید اشتراک
                 </Button>
               </li>
-
             </ul>
           </div>
           <div className="left flex align-center">
-            <ul >
-            <li>
+            <ul>
+              <li>
                 <Button to="/search" size="large" icon="fa-solid fa-plus">
                   جستجو
                 </Button>
               </li>
             </ul>
+            <Link to={"/"} >
             <div className="logo">
               <img className="wh" src="assets/logo/logo.svg" />
             </div>
+            </Link>
           </div>
         </div>
       </div>
-      {/* <div className={`main-container ${isMenuOpen ? 'menu-open' : ''}` }>
-      <button className="openMenu " style={{display : isMenuOpen ? 'none' : 'block'}} onClick={toggleMenu}>
-       منو
-      </button>
-
-      <div className="mainMenu" style={{ display: isMenuOpen ? 'flex' : 'none' }}>
-        {/* <button className="closeMenu" onClick={closeMenu}>
-          بستن
-        </button> 
-        <nav>
-          <ul className="menu-items">
-          <li>
-          <button className="closeMenu" onClick={closeMenu}>
-          بستن
-        </button>
-          </li>
-          <li>
-                  <Button
-                    border="solid"
-                    to="/login"
-                    size="large"
-                    icon="fa-solid fa-tv"
-                  >
-                    ورود و ثبت نام
-                  </Button>
-                </li>
-                <li>
-                  <Button size="large" icon="fa-solid fa-tv">
-                    خرید اشتراک
-                  </Button>
-                </li>
-                <li>
-                  <Button to="/search" size="large" icon="fa-solid fa-plus">
-                    جستجو
-                  </Button>
-                </li>
-          </ul>
-        </nav>
-      </div>
-    </div> */}
     </Style>
   );
 }

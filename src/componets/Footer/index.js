@@ -6,7 +6,7 @@ export default function Footer() {
     <Style>
       <div className="footer">
         <div className="container-2">
-          <div className="flex space-between">
+          <div className="test flex space-between">
             <Button>اپلیکیشن‌ها</Button>
             <Button>فرصت‌های شغلی</Button>
             <Button>تبلیغات در نماوا</Button>
