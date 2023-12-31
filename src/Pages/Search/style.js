@@ -1,3 +1,4 @@
+/* style.js */
 import styled from "styled-components";
 import { pallete } from "../../theme";
 
@@ -5,37 +6,23 @@ export const Style = styled.div`
   .container-2 {
     .content {
       .int {
-        width: 900px;
-        height: 60px;
-        background: #37383e;
+        max-width: 900px;
         margin: auto;
-        // display: flex;
-        // flex-direction: row-reverse;
-        border-radius: ${pallete.defaultRadiusX};
-        // img {
-        //   width: 28px;
-        // }
+        padding: 10px;
         input {
-          width: 900px;
-          height: 60px;
+          width: 100%;
+          height: 40px;
           outline: 0;
           text-align: right;
           border: none;
           color: #fff;
-          background: inherit;
+          background: #37383e;
           border-radius: ${pallete.defaultRadiusX};
           padding: 10px;
         }
       }
     }
   }
-  @media (max-width: 970px) {
-    input {
-      width:500px;
-    }
-    .int {
-      width:500px;
-    }
-  }
 
+  }
 `;

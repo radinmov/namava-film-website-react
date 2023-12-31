@@ -38,10 +38,12 @@ export default function Login() {
             <div className="btn mt-2 justify-center flex">
               <button>ورود</button>
             </div>
-            <h3 className="text-center mt-2">
+            <div className="under_login " >
+            <h3 className="text-center ">
               رمز عبور خود را فراموش کرده ام{" "}
             </h3>
-            <h3 className="text-center mt-2">ورود از طریق ایمیل</h3>
+            <h3 className="text-center ">ورود از طریق ایمیل</h3>
+          </div>
           </div>
         </div>
       </div>

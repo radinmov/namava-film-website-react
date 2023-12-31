@@ -71,5 +71,22 @@ export const Style = styled.div`
       }
     }
   }
+  @media (max-width: 550px) {
+    .wrapper {
+      width:300px !important;
+    }
+    .fh-wrapper .wrapper .wrapper-inner  {
+     width:220px;
+    }
+    .fh-wrapper .wrapper .wrapper-inner .int_1  {
+      width:200px;
+    }
+    .fh-wrapper .wrapper .wrapper-inner .int_1 input {
+      width:200px;
+    }
+    .fh-wrapper .wrapper .wrapper-inner .under_login {
+      margin:0;
+    }
+  }
 
 `;
