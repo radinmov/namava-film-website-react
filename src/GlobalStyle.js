@@ -135,4 +135,8 @@ a {
 {
     height:390px;
 }
+img.logo {
+    background:white;
+    border-radius :2px;
+}
 `;

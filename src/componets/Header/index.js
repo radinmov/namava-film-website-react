@@ -37,7 +37,7 @@ export default function Header() {
                   </Button>
                 </li>
                 <li>
-                  <Button size="large" icon="fa-solid fa-tv">
+                  <Button to= "/licens" size="large" icon="fa-solid fa-tv">
                     خرید اشتراک
                   </Button>
                 </li>
