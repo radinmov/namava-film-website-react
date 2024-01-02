@@ -5,7 +5,8 @@ export const pallete = {
   defaultRadiusX: "10px",
   defaultBtnColor: "#f1dac4",
   whiteColor1: "#eddecb",
-  defaultRadiusS:"7px"
+  defaultRadiusS:"7px",
+  defaultRadiusXS:"4px"
 };
 export const size  ={
   xs :"400px",

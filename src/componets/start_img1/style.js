@@ -31,10 +31,11 @@ export const Style = styled.div`
     border-radius: ${pallete.defaultRadiusXS};
     line-height: 45px;
     margin-top: 25px;
+    border-radius: ${pallete.defaultRadiusXS};
   }
   .btn:hover {
     background: #1993ff;
-    color:#fff;
+    color: #fff;
   }
   .title {
     font-size: 25px;

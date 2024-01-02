@@ -3,7 +3,8 @@ import { pallete } from "../../theme";
 
 export const Style = styled.div`
   .container {
-    margin-top: 125px;
+    margin-top: 90px;
+
     img {
       width: 588px;
       border-radius: ${pallete.defaultRadius};
