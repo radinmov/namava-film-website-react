@@ -95,6 +95,12 @@ a {
 {
     text-aling:center;
 }
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
 .card {
     position: relative;
     transition: all 0.3s ease-in-out;
@@ -134,9 +140,5 @@ a {
 .card-2
 {
     height:390px;
-}
-img.logo {
-    background:white;
-    border-radius :2px;
 }
 `;
