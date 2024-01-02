@@ -20,16 +20,15 @@ export default function SingleMovie() {
     <Style>
       <div className="container flex">
         <img src={data.poster} />
-      <div className="txt">
-        <h1 className="title">{data.title}</h1>  
-        <h1>genres:{data.genres}</h1>
-        <h1>country:{data.country}</h1>
-        <h2>director:{data.director}</h2>
-        <h2>{data.imdb_rating}</h2>
-        <h2>{data.imdb_id}</h2>
-        <h2>year:{data.year}</h2>
+        <div className="txt">
+          <h1 className="title">{data.title}</h1>
+          <h1 className="title">genres:{data.genres}</h1>
+          <h1 className="title">country:{data.country}</h1>
+          <h2 className="title">director:{data.director}</h2>
+          <h2 className="title">imdb_rating:{data.imdb_rating}</h2>
+          <h2 className="title">year:{data.year}</h2>
+        </div>
       </div>
-      </div>  
     </Style>
   );
 }

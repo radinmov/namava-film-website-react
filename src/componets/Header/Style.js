@@ -7,11 +7,6 @@ export const Style = styled.div`
   width: 100%;
   backdrop-filter: blur(14px);
   z-index: 10;
-  .logo {
-    img {
-      width: 109px;
-      height: auto;
-    }
     .container {
       displey: flex;
     }

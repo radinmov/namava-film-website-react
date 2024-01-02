@@ -57,7 +57,7 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="four public">
-        <div className="container relative  ">
+          <div className="container relative  ">
             <div className="container_inner absolute">
               <img src="https://static.namava.ir/Content/Upload/Images/99c96807-a4fe-4db8-abc5-bb19ff2d5f4a.png " />
               <p className="title">داوین چیز</p>
@@ -71,7 +71,7 @@ export default function App() {
               </div>
             </div>
           </div>
-           </SwiperSlide>
+        </SwiperSlide>
       </Swiper>
     </Style>
   );

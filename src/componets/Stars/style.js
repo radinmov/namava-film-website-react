@@ -14,4 +14,7 @@ export const Style = styled.div`
   ul.hr {
     height:185px;
   }
+  ul {
+    height:200px;
+  }
 `;

@@ -58,7 +58,7 @@ export default function Header() {
             </Button>
             <Link to={"/"}>
               <div className="logo">
-                <img src="assets/logo/logo.svg" />
+                <img className="logo" src="assets/logo/logo.svg" />
               </div>
             </Link>
           </div>

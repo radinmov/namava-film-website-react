@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { pallete } from "./theme";
 
 export const GlobalStyle = createGlobalStyle`
 @font-face {
@@ -140,5 +141,11 @@ a {
 .card-2
 {
     height:390px;
+}
+img.logo {
+    width:60px;
+    background:#fff;
+    border-radius: ${pallete.defaultRadiusXS};
+
 }
 `;

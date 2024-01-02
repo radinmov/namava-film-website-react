@@ -6,7 +6,7 @@ export const Style = styled.div`
     top: 150px;
     right: -152px;
     direction: rtl;
-    margin-right: 30px;
+    margin-right: 80px;
   }
   .age {
     width: 45px;
@@ -27,11 +27,14 @@ export const Style = styled.div`
     width: 140px;
     height: 45px;
     background: #fff;
-    color: #000;
+    color: black;
     border-radius: ${pallete.defaultRadiusXS};
     line-height: 45px;
     margin-top: 25px;
     border-radius: ${pallete.defaultRadiusXS};
+  }
+  .btn a {
+    color: black;
   }
   .btn:hover {
     background: #1993ff;
