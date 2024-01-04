@@ -11,7 +11,6 @@ export default function Homepage() {
   return (
     <Style>
     <PrimaryLayout>
-      {/* <App /> */}
       <App />
       <StartImg />
       <MovieList title="ویژه" url="movies" />

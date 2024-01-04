@@ -3,6 +3,7 @@ import { api } from "../../utils/api";
 import { Link } from "react-router-dom";
 import { Style } from "./style";
 import "./index.css"
+import { render } from "@testing-library/react";
 
 export default function MovieList(props) {
   const { title = "", url = "" } = props;
@@ -21,9 +22,12 @@ export default function MovieList(props) {
         setLoading(false);
       });
   }, []);
+    if (loading === false) {
+      <div>loading</div>
+    }
   function renderFarm() {
     return items.map((item) => {
-      const { id, poster, title, country, year, imdb_rating } =
+      const { id, poster, title, year, imdb_rating } =
         item;
       return (
         <li key={id}>
@@ -49,6 +53,11 @@ export default function MovieList(props) {
         <h2 className="title mr-6">{title}</h2>
       </div>
       <div id="slider" className="overflow-x-scroll w-full  whitespace-nowrap scroll-smoth ">
+        {
+          items.length > 0 ? (renderFarm) : (
+            <div class="border-gray-300 h-20 w-20 animate-spin rounded-full border-8 border-t-blue-600 m-auto" />
+          )
+        }
       {<ul className="flex  gap-20  m-4">{renderFarm()}</ul>}
       </div>
     </Style>

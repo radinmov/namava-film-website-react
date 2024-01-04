@@ -1,6 +1,5 @@
 import { Style } from "./style";
 
-
 export default function Stars() {
   let stars = [
     {
@@ -50,8 +49,16 @@ export default function Stars() {
     <Style>
       <div className="container-2 ">
         <h2 className="title text-right mr-4">ستارگان</h2>
-        <div id="slider"  className="overflow-x-scroll scroll  whitespace-nowrap scroll-smoth ">
-        <ul className="flex gap-40 justify-center">{renderFarm()}</ul>
+        {stars.length > 0 ? (
+          renderFarm
+        ) : (
+          <div class="border-gray-300 h-20 w-20 animate-spin rounded-full border-8 border-t-blue-600 m-auto" />
+        )}
+        <div
+          id="slider"
+          className="overflow-x-scroll scroll  whitespace-nowrap scroll-smoth "
+        >
+          <ul className="flex gap-40 justify-center">{renderFarm()}</ul>
         </div>
       </div>
     </Style>

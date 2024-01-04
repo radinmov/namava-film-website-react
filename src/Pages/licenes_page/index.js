@@ -7,6 +7,7 @@ export default function Licens() {
   return (
     <Style>
       <Header_2_licens />
+
       <div
         className="container-2 flex  justify-center"
         style={{ marginTop: "30px" }}
@@ -17,9 +18,9 @@ export default function Licens() {
             <div className="licens_1_inner relative ">
               <div className="right  absolute ">
                 <p className="month text-right">یک ماهه</p>
-                <p className="bck"> ویژّه خرید اول %۳۰ تخفیف</p>
+                <p className="bck text-center"> ویژّه خرید اول %۳۰ تخفیف</p>
               </div>
-              <div className="left flex">
+              <div className="left absolute">
                 <span className="price">۱۱۹,۰۰۰</span>
                 <span className="price ">تومان</span>
               </div>
@@ -29,9 +30,9 @@ export default function Licens() {
             <div className="licens_1_inner relative ">
               <div className="right  absolute ">
                 <p className="month text-right">یک ماهه</p>
-                <p className="bck"> ویژّه خرید اول %۳۰ تخفیف</p>
+                <p className="bck text-center"> ویژّه خرید اول %۳۰ تخفیف</p>
               </div>
-              <div className="left flex">
+              <div className="left absolute ">
                 <span className="price">۱۱۹,۰۰۰</span>
                 <span className="price ">تومان</span>
               </div>
@@ -41,9 +42,9 @@ export default function Licens() {
             <div className="licens_1_inner relative ">
               <div className="right  absolute ">
                 <p className="month text-right">یک ماهه</p>
-                <p className="bck"> ویژّه خرید اول %۳۰ تخفیف</p>
+                <p className="bck text-center"> ویژّه خرید اول %۳۰ تخفیف</p>
               </div>
-              <div className="left flex">
+              <div className="left absolute ">
                 <span className="price">۱۱۹,۰۰۰</span>
                 <span className="price ">تومان</span>
               </div>
