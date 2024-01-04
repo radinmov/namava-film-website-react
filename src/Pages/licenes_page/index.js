@@ -50,6 +50,20 @@ export default function Licens() {
               </div>
             </div>
           </div>
+          <div className="for_sale ">
+            <p className="offer text-right">ثبت کد تخفیف و یا کد هدیه </p>
+            <div className="int_puts flex ">
+              <button>اعمال </button>
+              <input placeholder="ثبت کد تخفیف و یا کد هدیه" />
+            </div>
+          </div>
+          <div className="buy_licens text-right for_sale">
+            <p>:با خرید اشتراک  به امکانات زیر دسترسی خواهید داشت</p>
+            <ul>
+              <li>تماشای نامحدود هزاران فیلم و سریال و انیمیشن جذاب نماوا در طول مدت اشتراک خریداری شده</li>
+            </ul>
+          </div>
+
         </div>
       </div>
     </Style>
