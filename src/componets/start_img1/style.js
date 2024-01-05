@@ -4,9 +4,9 @@ import { pallete } from "../../theme";
 export const Style = styled.div`
   .container_inner {
     top: 150px;
-    right: -152px;
+    right: 100px;
     direction: rtl;
-    margin-right: 80px;
+    // margin-right: 80px;
   }
   .age {
     width: 45px;

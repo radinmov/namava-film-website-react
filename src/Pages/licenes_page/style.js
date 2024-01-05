@@ -17,7 +17,6 @@ export const Style = styled.div`
     width: 669px;
     height: 108px;
     background: #fff;
-    border-radius: ${pallete.defaultRadiusXS};
   }
   .right {
     right: 8px;
@@ -34,33 +33,61 @@ export const Style = styled.div`
     background: #1993ff;
     margin-top: 10px;
     line-height: 35px;
-    border-radius: ${pallete.defaultRadiusXS};
   }
   .price {
     color: rgb(25, 147, 255);
     font-size: 21px;
   }
   .for_sale {
-    margin-top:50px;
+    margin-top: 50px;
   }
   .int_puts {
     width: 680px;
     height: 46px;
-    margin-top:20px;
+    margin-top: 20px;
   }
   .int_puts input {
     width: 680px;
     height: 46px;
-    border:none;
-    outline:0;
-    text-align:right;
-    border-radius: ${pallete.defaultRadiusXS};4
+    border: none;
+    outline: 0;
+    text-align: right;
   }
   .int_puts button {
     width: 80px;
     height: 46px;
     background: #aaaaaa;
     color: #fff;
-    border-radius: ${pallete.defaultRadiusXS};
+  }
+  .buy_licens {
+    width: 680px;
+    height: 100px;
+    background: #ffffff;
+  }
+  .txt {
+    top: 20px;
+    right: 10px;
+  }
+  .txt p {
+    font-size: 18px;
+  }
+  .txt ul {
+    margin-top: 9px;
+  }
+  .wran {
+    width: 682px;
+    height: 75px;
+    background: #d95c5c;
+    margin-top: 50px;
+  }
+  .tet {
+    top: 20px;
+    right: 10px;
+  }
+  .tet p.fn {
+    font-size: 18px;
+  }
+  .tet p.mg {
+    margin-right: 30px;
   }
 `;

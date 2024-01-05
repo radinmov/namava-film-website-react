@@ -102,6 +102,9 @@ a {
 .absolute {
     position: absolute;
 }
+.RadiusXS {
+    border-radius:${pallete.defaultRadiusXS}
+}
 .card {
     position: relative;
     transition: all 0.3s ease-in-out;
