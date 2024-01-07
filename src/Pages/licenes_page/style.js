@@ -81,13 +81,24 @@ export const Style = styled.div`
     margin-top: 50px;
   }
   .tet {
-    top: 20px;
-    right: 10px;
+    top: 13px;
+    right: 35px;
   }
   .tet p.fn {
     font-size: 18px;
   }
-  .tet p.mg {
-    margin-right: 30px;
+  .support {
+    width: 680px;
+    height: 70px;
+    background: #1993ff;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 50px;
+  }
+  .supp_inner {
+    width: 600px;
+    right:35px;
+    top:13px;
   }
 `;

@@ -1,8 +1,7 @@
 import Header_2_licens from "../../componets/Header_licens";
-import Footer from "../../componets/Footer/index"
+import Footer from "../../componets/Footer/index";
 import { Style } from "./style";
 import useTitle from "../../componets/Hook/useTitle";
-
 
 export default function Licens() {
   const title = useTitle("خرید اشتراک نماوا ");
@@ -12,10 +11,10 @@ export default function Licens() {
 
       <div
         className="container-2 flex  justify-center"
-        style={{ marginTop: "30px" }}
+        style={{ marginTop: "100px" }}
       >
         <div className="container_inner">
-          <p>اشتراک خود را انتخاب کنید </p>
+          <p className="text-center " style={{fontSize:"20px"}}>اشتراک خود را انتخاب کنید </p>
           <div className="licens_1">
             <div className="licens_1_inner relative ">
               <div className="right  absolute ">
@@ -45,7 +44,6 @@ export default function Licens() {
               <div className="right  absolute ">
                 <p className="month text-right">یک ماهه</p>
                 <p className="bck RadiusXS text-center">
-                  {" "}
                   ویژّه خرید اول %۳۰ تخفیف
                 </p>
               </div>
@@ -88,16 +86,18 @@ export default function Licens() {
               </p>
             </div>
           </div>
-          <div className="support">
-            <p>هفت روز هفته، ۲۴ ساعت شبانه‌روز پاسخگوی شما هستیم</p>
-            <div className="under_support">
-              <span>۰۲۱-۹۱۰۰۰۱۱۱</span>
-              <p>support@namava.ir</p>
+          <div className="support relative RadiusXS text-right">
+            <div className="supp_inner absolute">
+              <p>هفت روز هفته، ۲۴ ساعت شبانه‌روز پاسخگوی شما هستیم</p>
+              <div className="under_support flex space-between">
+                <span>۰۲۱-۹۱۰۰۰۱۱۱</span>
+                <p>support@namava.ir</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-     <Footer />
+      <Footer />
     </Style>
   );
 }
