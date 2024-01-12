@@ -43,4 +43,10 @@ export const Style = styled.div`
   .title {
     font-size: 25px;
   }
+  @media (max-width: 1480px) {
+    .container_inner {
+      right:-100px;
+    }
+    
+  }
 `;

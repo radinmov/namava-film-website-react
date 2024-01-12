@@ -6,12 +6,14 @@ export const Style = styled.div`
   height: 100%;
   color: #000;
   .licens_1 {
-    width: 680px;
     height: 108px;
     background: #cecece;
     color: #000;
     filter: contrast(120%);
     margin-top: 50px;
+  }
+  .w-680 {
+    width: 680px;
   }
   .licens_1_inner {
     width: 669px;
@@ -42,12 +44,10 @@ export const Style = styled.div`
     margin-top: 50px;
   }
   .int_puts {
-    width: 680px;
     height: 46px;
     margin-top: 20px;
   }
   .int_puts input {
-    width: 680px;
     height: 46px;
     border: none;
     outline: 0;
@@ -60,16 +60,12 @@ export const Style = styled.div`
     color: #fff;
   }
   .buy_licens {
-    width: 680px;
     height: 100px;
     background: #ffffff;
   }
   .txt {
     top: 20px;
     right: 10px;
-  }
-  .txt p {
-    font-size: 18px;
   }
   .txt ul {
     margin-top: 9px;
@@ -84,11 +80,10 @@ export const Style = styled.div`
     top: 13px;
     right: 35px;
   }
-  .tet p.fn {
-    font-size: 18px;
+  .s-18 {
+    font-size:18px;
   }
   .support {
-    width: 680px;
     height: 70px;
     background: #1993ff;
     margin-top: 50px;
@@ -98,7 +93,7 @@ export const Style = styled.div`
   }
   .supp_inner {
     width: 600px;
-    right:35px;
-    top:13px;
+    right: 35px;
+    top: 13px;
   }
 `;

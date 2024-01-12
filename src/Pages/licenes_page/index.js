@@ -15,7 +15,7 @@ export default function Licens() {
       >
         <div className="container_inner">
           <p className="text-center " style={{fontSize:"20px"}}>اشتراک خود را انتخاب کنید </p>
-          <div className="licens_1">
+          <div className="licens_1 w-680">
             <div className="licens_1_inner relative ">
               <div className="right  absolute ">
                 <p className="month text-right">یک ماهه</p>
@@ -55,17 +55,17 @@ export default function Licens() {
           </div>
           <div className="for_sale ">
             <p className="offer text-right">ثبت کد تخفیف و یا کد هدیه </p>
-            <div className="int_puts flex ">
+            <div className="int_puts w-680 flex ">
               <button className="RadiusXS">اعمال </button>
               <input
-                className="RadiusXS"
+                className="RadiusXS w-680"
                 placeholder="ثبت کد تخفیف و یا کد هدیه"
               />
             </div>
           </div>
-          <div className="buy_licens RadiusXS text-right for_sale relative">
+          <div className="buy_licens RadiusXS text-right for_sale relative w-680">
             <div className="txt absolute">
-              <p>:با خرید اشتراک به امکانات زیر دسترسی خواهید داشت</p>
+              <p className="s-18">:با خرید اشتراک به امکانات زیر دسترسی خواهید داشت</p>
               <ul>
                 <li>
                   تماشای نامحدود هزاران فیلم و سریال و انیمیشن جذاب نماوا در طول
@@ -76,7 +76,7 @@ export default function Licens() {
           </div>
           <div className="wran  RadiusXS relative text-right">
             <div className="tet absolute">
-              <p className="fn">
+              <p className="fn s-18">
                 تماشای فیلم های خارجی تنها برای کاربران داخل ایران امکان پذیر
                 است
               </p>
@@ -86,7 +86,7 @@ export default function Licens() {
               </p>
             </div>
           </div>
-          <div className="support relative RadiusXS text-right">
+          <div className="support w-680 relative RadiusXS text-right">
             <div className="supp_inner absolute">
               <p>هفت روز هفته، ۲۴ ساعت شبانه‌روز پاسخگوی شما هستیم</p>
               <div className="under_support flex space-between">
