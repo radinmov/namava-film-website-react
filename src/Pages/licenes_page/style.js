@@ -15,8 +15,9 @@ export const Style = styled.div`
   .w-680 {
     width: 680px;
   }
+  
   .licens_1_inner {
-    width: 669px;
+    width: 670px;
     height: 108px;
     background: #fff;
   }
@@ -71,7 +72,6 @@ export const Style = styled.div`
     margin-top: 9px;
   }
   .wran {
-    width: 682px;
     height: 75px;
     background: #d95c5c;
     margin-top: 50px;
@@ -81,7 +81,7 @@ export const Style = styled.div`
     right: 35px;
   }
   .s-18 {
-    font-size:18px;
+    font-size: 18px;
   }
   .support {
     height: 70px;
@@ -95,5 +95,47 @@ export const Style = styled.div`
     width: 600px;
     right: 35px;
     top: 13px;
+  }
+  @media (max-width: 720px) {
+    .w-680 {
+      width: 500px;
+    }
+    .wran {
+      height:100px;
+    }
+    .tet {
+      right:5px;
+    }
+    .txt {
+      top:10px;
+    }
+    .licens_1_inner {
+      width:490px;
+    }
+    .supp_inner {
+      width:420px;
+    }
+  }
+  @media (max-width:510px) {
+    .w-680 {
+      width:290px;
+    }
+    .licens_1_inner {
+      width:280px;
+    }
+    .supp_inner {
+      width:210px;
+      font-size:15px;
+      top:2px;
+    }
+    .s-18 {
+      font-size:15px;
+    }
+    .wran {
+      height:110px;
+    }
+    .buy_licens {
+      height:140px;
+    }
   }
 `;
