@@ -4,7 +4,8 @@ import { Style } from "./style";
 export default function Footer() {
   return (
     <Style>
-      <div className="footer">
+       
+      <div className="footer overflow-x-scroll  whitespace-nowrap scroll-smoth" >
         <div className="container-2">
           <div className="test flex space-between">
             <Button>اپلیکیشن‌ها</Button>
@@ -19,6 +20,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="bottom-footer" />
+      
       </div>
     </Style>
   );

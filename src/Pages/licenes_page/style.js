@@ -137,5 +137,9 @@ export const Style = styled.div`
     .buy_licens {
       height:140px;
     }
+    .licens_1 .licens_1_inner  .left {
+      top:10px;
+    }
   }
+
 `;
