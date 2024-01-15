@@ -7,14 +7,13 @@ export const Style = styled.div`
   .center {
     text-align: center;
   }
-  .title 
-  {
-    font-size:20px;
+  .title {
+    font-size: 20px;
   }
   ul.hr {
-    height:185px;
+    height: 185px;
   }
   ul {
-    height:200px;
+    height: 200px;
   }
 `;
