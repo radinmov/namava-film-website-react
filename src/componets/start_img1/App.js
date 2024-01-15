@@ -15,7 +15,8 @@ import { Link } from "react-router-dom";
 export default function App() {
   return (
     <Style>
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+      <Swiper navigation={true} modules={[Navigation]} className="mySwiper"
+      >
         <SwiperSlide className="one public">
           <div className="container relative">
             <div className="container_inner absolute">

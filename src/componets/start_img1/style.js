@@ -6,7 +6,7 @@ export const Style = styled.div`
     top: 150px;
     right: 100px;
     direction: rtl;
-    // margin-right: 80px;
+    width: 50%;
   }
   .age {
     width: 45px;
@@ -45,8 +45,36 @@ export const Style = styled.div`
   }
   @media (max-width: 1480px) {
     .container_inner {
-      right:-100px;
+      right: -100px;
     }
-    
+    @media (max-width: 1390px) {
+      .container_inner {
+        right:-20px;
+      }
+    } 
+    @media (max-width: 1390px) {
+      .container_inner  {
+        right:0;
+      }
+    }
+      @media (max-width: 650px) {
+        .container_inner {
+          right:20px;
+        }
+      }
+      @media (max-width: 430px) {
+        .container_inner {
+          right:40px;
+        }
+      }
+    @media (max-width: 380px) {
+      .container_inner {
+        width: 50%;
+        right: 100px;
+      }
+      .public {
+        width: 400px;
+      }
+    }
   }
 `;

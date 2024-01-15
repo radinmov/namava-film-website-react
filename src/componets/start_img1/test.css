@@ -2,8 +2,10 @@
   background-image: url("https://static.namava.ir/Content/Upload/Images/7fa7202a-1eee-4627-b738-d423ce0e8cbd.jpg?anchor=middlecenter&crop=auto&scale=both&w=1920&h=900");
   background-repeat: no-repeat;
   height: 500px;
+
 }
 .two {
+  width: 100%;
   background-image: url("https://static.namava.ir/Content/Upload/Images/65335845-80bf-47d3-a3cf-60c8b994974f.jpg?anchor=middlecenter&crop=auto&scale=both&w=1920&h=900");
 }
 .three {
@@ -15,4 +17,5 @@
 
 .public {
   height: 700px;
+  /* width: 100%;  */
 }
