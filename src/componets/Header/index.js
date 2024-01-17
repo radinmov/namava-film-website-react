@@ -4,20 +4,6 @@ import { Style } from "./Style";
 import { Link } from "react-router-dom";
 
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
-  const closeMenu = () => {
-    setIsMenuOpen(false);
-  };
-
-  // Additional logic for handling menu item clicks
-  const handleMenuItemClick = () => {
-    closeMenu();
-  };
 
   return (
     <Style>
@@ -65,7 +51,7 @@ export default function Header() {
         </div>
       </div>
       <div className="responsive_container ">
-        <div className="responsiv_inner  flex space-between">
+        <div className="responsiv_inner align-center  flex space-between">
           <div className="right">
             <ul className="flex">
               <li>
@@ -95,7 +81,7 @@ export default function Header() {
             </ul>
             <Link to={"/"} >
             <div className="logo">
-              <img className="wh" src="assets/logo/logo.svg" />
+              <img className="logo" src="assets/logo/logo.svg" />
             </div>
             </Link>
           </div>

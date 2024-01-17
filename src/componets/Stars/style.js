@@ -14,6 +14,6 @@ export const Style = styled.div`
     height: 185px;
   }
   ul {
-    height: 200px;
+    height: 250px;
   }
 `;

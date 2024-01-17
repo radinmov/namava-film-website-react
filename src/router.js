@@ -5,6 +5,7 @@ import Search from "./Pages/Search";
 import SingleMovie from "./Pages/SingleMovies";
 import Login from "./Pages/Login";
 import Licens from "./Pages/licenes_page";
+import One from "./componets/one";
 
 
 const routes = createBrowserRouter([
@@ -12,6 +13,11 @@ const routes = createBrowserRouter([
     path: "/",
     element: <Homepage />,
   },
+  {
+    path: "/one",
+    element: <One />,
+  }, 
+
   {
       path: "/item/:id",
       element: <SingleMovie />,

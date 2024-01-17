@@ -44,7 +44,7 @@ export const Style = styled.div`
     .responsive_container {
       display:block;
     }
-    img.wh {
+    img.logo {
       width:42px;
       margin:10px;
       background:white;
